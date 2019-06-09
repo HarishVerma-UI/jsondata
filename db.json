@@ -5,8 +5,8 @@
       "fristname": "ChristiansenIII",
       "lastname": "KoelpinI",
       "address": {
-        "street address": "76868 Camylle OrchardTrail",
-        "apartment number": "0000",
+        "streetaddress": "76868 Camylle OrchardTrail",
+        "apartmentnumber": "0000",
         "city": "Daxside",
         "state": "New York",
         "zip": "20120-6549"
@@ -22,8 +22,8 @@
       "fristname": "MullerPhD",
       "lastname": "LarsonPhD",
       "address": {
-        "street address": "45719 Jermey ViaductManor",
-        "apartment number": "0001",
+        "streetaddress": "45719 Jermey ViaductManor",
+        "apartmentnumber": "0001",
         "city": "Naomihaven",
         "state": "Tennessee",
         "zip": "42021"
@@ -39,8 +39,8 @@
       "fristname": "LittelDVM",
       "lastname": "BatzI",
       "address": {
-        "street address": "66816 Jennyfer PrairiePoints",
-        "apartment number": "0002",
+        "streetaddress": "66816 Jennyfer PrairiePoints",
+        "apartmentnumber": "0002",
         "city": "Cartwrightfort",
         "state": "Vermont",
         "zip": "81655-3355"
@@ -56,8 +56,8 @@
       "fristname": "O'ReillyIII",
       "lastname": "WillJr.",
       "address": {
-        "street address": "8714 Adams WallTerrace",
-        "apartment number": "0003",
+        "streetaddress": "8714 Adams WallTerrace",
+        "apartmentnumber": "0003",
         "city": "Hellerhaven",
         "state": "Wyoming",
         "zip": "54407"
@@ -73,8 +73,8 @@
       "fristname": "WehnerDVM",
       "lastname": "CrooksMD",
       "address": {
-        "street address": "20033 Garrison CirclesStream",
-        "apartment number": "0004",
+        "streetaddress": "20033 Garrison CirclesStream",
+        "apartmentnumber": "0004",
         "city": "Hammesmouth",
         "state": "Kentucky",
         "zip": "35091-5380"
@@ -90,8 +90,8 @@
       "fristname": "LarkinII",
       "lastname": "DickensPhD",
       "address": {
-        "street address": "714 Ferry DaleInlet",
-        "apartment number": "0005",
+        "streetaddress": "714 Ferry DaleInlet",
+        "apartmentnumber": "0005",
         "city": "South Orland",
         "state": "Rhode Island",
         "zip": "57275-3745"
@@ -107,8 +107,8 @@
       "fristname": "TerryV",
       "lastname": "SteuberV",
       "address": {
-        "street address": "51014 Norene CirclesDrive",
-        "apartment number": "0006",
+        "streetaddress": "51014 Norene CirclesDrive",
+        "apartmentnumber": "0006",
         "city": "New Josue",
         "state": "New York",
         "zip": "73984-9778"
@@ -124,8 +124,8 @@
       "fristname": "DaughertyIII",
       "lastname": "MonahanSr.",
       "address": {
-        "street address": "9016 Kovacek LakeParks",
-        "apartment number": "0007",
+        "streetaddress": "9016 Kovacek LakeParks",
+        "apartmentnumber": "0007",
         "city": "East Kaylie",
         "state": "Texas",
         "zip": "87235-6499"
@@ -141,8 +141,8 @@
       "fristname": "WalshSr.",
       "lastname": "NicolasIII",
       "address": {
-        "street address": "6808 Shanahan AlleyIslands",
-        "apartment number": "0008",
+        "streetaddress": "6808 Shanahan AlleyIslands",
+        "apartmentnumber": "0008",
         "city": "Parisianmouth",
         "state": "Rhode Island",
         "zip": "72883"
@@ -158,8 +158,8 @@
       "fristname": "DurganIII",
       "lastname": "FlatleyJr.",
       "address": {
-        "street address": "435 Blaze DamCoves",
-        "apartment number": "0009",
+        "streetaddress": "435 Blaze DamCoves",
+        "apartmentnumber": "0009",
         "city": "North Pamela",
         "state": "New York",
         "zip": "53265-1367"
@@ -175,8 +175,8 @@
       "fristname": "OlsonIV",
       "lastname": "LindgrenI",
       "address": {
-        "street address": "08880 Funk TunnelWay",
-        "apartment number": "00010",
+        "streetaddress": "08880 Funk TunnelWay",
+        "apartmentnumber": "00010",
         "city": "West Noemystad",
         "state": "Alabama",
         "zip": "03280-0876"
