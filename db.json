@@ -48,7 +48,7 @@
       "profileimage": "https://s3.amazonaws.com/uifaces/faces/twitter/keryilmaz/128.jpg",
       "ordertotal": {
         "amountfield": "197.81",
-        "currency": "OMR"
+        "currency": "BSD"
       }
     },
     {
@@ -82,7 +82,7 @@
       "profileimage": "https://s3.amazonaws.com/uifaces/faces/twitter/al_li/128.jpg",
       "ordertotal": {
         "amountfield": "239.75",
-        "currency": "CZK"
+        "currency": "BSD"
       }
     },
     {
@@ -116,7 +116,7 @@
       "profileimage": "https://s3.amazonaws.com/uifaces/faces/twitter/joshhemsley/128.jpg",
       "ordertotal": {
         "amountfield": "798.54",
-        "currency": "CZK"
+        "currency": "BSD"
       }
     },
     {
@@ -167,7 +167,7 @@
       "profileimage": "https://s3.amazonaws.com/uifaces/faces/twitter/psdesignuk/128.jpg",
       "ordertotal": {
         "amountfield": "764.85",
-        "currency": "CZK"
+        "currency": "BSD"
       }
     },
     {
@@ -184,7 +184,7 @@
       "profileimage": "https://s3.amazonaws.com/uifaces/faces/twitter/robbschiller/128.jpg",
       "ordertotal": {
         "amountfield": "332.37",
-        "currency": "CZK"
+        "currency": "BSD"
       }
     }
    ] 
