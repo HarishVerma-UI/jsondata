@@ -1,191 +1,950 @@
-{
-  "people": [
-    {
-      "id": 0,
-      "fristname": "ChristiansenIII",
-      "lastname": "KoelpinI",
-      "address": {
-        "streetaddress": "76868 Camylle OrchardTrail",
-        "apartmentnumber": "0000",
-        "city": "Daxside",
-        "state": "New York",
-        "zip": "20120-6549"
-      },
-      "profileimage": "https://s3.amazonaws.com/uifaces/faces/twitter/karlkanall/128.jpg",
-      "ordertotal": {
-        "amountfield": "938.77",
-        "currency": "GIP"
+[
+  {
+    tpl: 1100,
+    insurance_type: 'comprehensive',
+    premium: 4516,
+    provider: {
+      enae: {
+        url_slug: 'watania',
+        terms_conditions_url: 'https:\/\/bnkn.us\/insurance-terms\/WataniaTerms.pdf',
+        image_url: 'https:\/\/static4.bnkn.us.com\/ci\/providers\/watania.png',
+        name: 'Watania',
+        description: 'National Takaful Company (Watania) is a young and dynamic organization that came into being in 2011. Watania\u2019s General Takaful department is responsible for all classes of insurance other than Motor and Medical. Resourced with highly experienced staff, this department is dedicated to serve mainly the commercial insurance needs of the market. The department has developed a wide a range of products to cater to the requirement of business of all sizes and types in all the major sectors of the market. All the products are Shariah compliant.',
+        time_to_policy: 1,
+        product_name: 'Watania Premium (Garage)'
       }
     },
-    {
-      "id": 1,
-      "fristname": "MullerPhD",
-      "lastname": "LarsonPhD",
-      "address": {
-        "streetaddress": "45719 Jermey ViaductManor",
-        "apartmentnumber": "0001",
-        "city": "Naomihaven",
-        "state": "Tennessee",
-        "zip": "42021"
+    excess: 1000,
+    currency: 'AED',
+    id: 'wataniapremium',
+    price_breakdown: {
+      modifiers: [
+        {
+          terms: {
+            starts_at: '2017-01-01T00:00:00.000+0000',
+            product: 'ALL',
+            code: '',
+            name: 'Ramadan extended',
+            ends_at: '2017-12-12T00:00:00.000+0000',
+            type: 'discountPercentage',
+            value: '0.06'
+          },
+          category: 'voucher'
+        }
+      ],
+      base: 4805
+    },
+    covers: [
+      {
+        name: 'personalAccidentForDriver',
+        options: [
+          {
+            cost: 120
+          }
+        ],
+        type: 'optional',
+        selected: false
       },
-      "profileimage": "https://s3.amazonaws.com/uifaces/faces/twitter/klimmka/128.jpg",
-      "ordertotal": {
-        "amountfield": "250.06",
-        "currency": "GIP"
+      {
+        name: 'dentRepair',
+        type: 'excluded'
+      },
+      {
+        name: 'replacementLocksCovered',
+        type: 'excluded'
+      },
+      {
+        name: 'thirdPartyPropertyDamage',
+        options: [
+          {
+            text: 'Up to AED 2M'
+          }
+        ],
+        type: 'included'
+      },
+      {
+        name: 'omanExtension',
+        options: [
+          {
+            cost: 1000
+          }
+        ],
+        type: 'optional',
+        selected: false
+      },
+      {
+        name: 'lossOrDamageToVehicleCovered',
+        type: 'included'
+      },
+      {
+        name: 'valetParkingTheftCover',
+        type: 'excluded'
+      },
+      {
+        name: 'thirdPartyBodilyInjuryCovered',
+        options: [
+          {
+            text: 'Unlimited'
+          }
+        ],
+        type: 'included'
+      },
+      {
+        name: 'agencyRepair',
+        type: 'excluded'
+      },
+      {
+        name: 'lossOfPersonalEffects',
+        type: 'excluded'
+      },
+      {
+        name: 'emergencyMedicalExpenses',
+        options: [
+          {
+            text: 'Up to AED 2,000'
+          }
+        ],
+        type: 'included'
+      },
+      {
+        name: 'personalAccidentForPassenger',
+        options: [
+          {
+            cost: 150
+          },
+          {
+            text: 'Family and Friends included'
+          }
+        ],
+        type: 'excluded',
+        selected: false
+      },
+      {
+        name: 'ambulanceFees',
+        type: 'included'
+      },
+      {
+        name: 'naturalCalamityCovered',
+        type: 'excluded'
+      },
+      {
+        name: 'autoGapInsurance',
+        type: 'excluded'
+      },
+      {
+        name: 'riotOrStrikesCovered',
+        type: 'excluded'
+      },
+      {
+        name: 'gccCovered',
+        type: 'excluded'
+      },
+      {
+        name: 'involuntaryEmploymentLoss',
+        type: 'excluded'
+      },
+      {
+        name: 'carRental',
+        options: [
+          {
+            cost: 200
+          }
+        ],
+        type: 'optional',
+        selected: false
+      },
+      {
+        name: 'windScreenDamage',
+        options: [
+          {
+            text: 'Up to AED 3,000'
+          }
+        ],
+        type: 'included'
+      },
+      {
+        name: 'noExcessForWindscreenDamage',
+        type: 'included'
+      },
+      {
+        name: 'roadsideAssistance',
+        type: 'included'
+      },
+      {
+        name: 'fireAndTheftCovered',
+        type: 'included'
+      },
+      {
+        name: 'protectedNoClaimsDiscount',
+        type: 'excluded'
+      },
+      {
+        name: 'offroadCovered',
+        type: 'excluded'
+      },
+      {
+        name: 'freeCarRegistrationService',
+        type: 'included'
+      }
+    ],
+    own_damage: 3705
+  },
+  {
+    tpl: 1100,
+    insurance_type: 'comprehensive',
+    premium: 5943,
+    provider: {
+      enae: {
+        url_slug: 'watania',
+        terms_conditions_url: 'https:\/\/static4.bnkn.us\/insurance-terms\/WataniaTerms.pdf',
+        image_url: 'https:\/\/static4.bnkn.us\/ci\/providers\/watania.png',
+        name: 'Watania',
+        description: 'National Takaful Company (Watania) is a young and dynamic organization that came into being in 2011. Watania\u2019s General Takaful department is responsible for all classes of insurance other than Motor and Medical. Resourced with highly experienced staff, this department is dedicated to serve mainly the commercial insurance needs of the market. The department has developed a wide a range of products to cater to the requirement of business of all sizes and types in all the major sectors of the market. All the products are Shariah compliant.',
+        time_to_policy: 1,
+        product_name: 'Watania Agency'
       }
     },
-    {
-      "id": 2,
-      "fristname": "LittelDVM",
-      "lastname": "BatzI",
-      "address": {
-        "streetaddress": "66816 Jennyfer PrairiePoints",
-        "apartmentnumber": "0002",
-        "city": "Cartwrightfort",
-        "state": "Vermont",
-        "zip": "81655-3355"
+    excess: 1000,
+    currency: 'AED',
+    id: 'wataniaagency',
+    price_breakdown: {
+      modifiers: [
+        {
+          terms: {
+            starts_at: '2017-01-01T00:00:00.000+0000',
+            product: 'ALL',
+            code: '',
+            name: 'Ramadan extended',
+            ends_at: '2017-12-12T00:00:00.000+0000',
+            type: 'discountPercentage',
+            value: '0.06'
+          },
+          category: 'voucher'
+        }
+      ],
+      base: 6322
+    },
+    covers: [
+      {
+        name: 'personalAccidentForDriver',
+        options: [
+          {
+            cost: 120
+          }
+        ],
+        type: 'optional',
+        selected: false
       },
-      "profileimage": "https://s3.amazonaws.com/uifaces/faces/twitter/keryilmaz/128.jpg",
-      "ordertotal": {
-        "amountfield": "197.81",
-        "currency": "BSD"
+      {
+        name: 'dentRepair',
+        type: 'excluded'
+      },
+      {
+        name: 'replacementLocksCovered',
+        type: 'excluded'
+      },
+      {
+        name: 'thirdPartyPropertyDamage',
+        options: [
+          {
+            text: 'Up to AED 2M'
+          }
+        ],
+        type: 'included'
+      },
+      {
+        name: 'omanExtension',
+        options: [
+          {
+            cost: 1000
+          }
+        ],
+        type: 'optional',
+        selected: false
+      },
+      {
+        name: 'lossOrDamageToVehicleCovered',
+        type: 'included'
+      },
+      {
+        name: 'valetParkingTheftCover',
+        type: 'excluded'
+      },
+      {
+        name: 'thirdPartyBodilyInjuryCovered',
+        options: [
+          {
+            text: 'Unlimited'
+          }
+        ],
+        type: 'included'
+      },
+      {
+        name: 'agencyRepair',
+        type: 'included'
+      },
+      {
+        name: 'lossOfPersonalEffects',
+        type: 'excluded'
+      },
+      {
+        name: 'emergencyMedicalExpenses',
+        options: [
+          {
+            text: 'Up to AED 2,000'
+          }
+        ],
+        type: 'included'
+      },
+      {
+        name: 'personalAccidentForPassenger',
+        options: [
+          {
+            cost: 150
+          },
+          {
+            text: 'Family and Friends included'
+          }
+        ],
+        type: 'excluded',
+        selected: false
+      },
+      {
+        name: 'ambulanceFees',
+        type: 'included'
+      },
+      {
+        name: 'naturalCalamityCovered',
+        type: 'excluded'
+      },
+      {
+        name: 'autoGapInsurance',
+        type: 'included'
+      },
+      {
+        name: 'riotOrStrikesCovered',
+        type: 'excluded'
+      },
+      {
+        name: 'gccCovered',
+        type: 'excluded'
+      },
+      {
+        name: 'involuntaryEmploymentLoss',
+        type: 'excluded'
+      },
+      {
+        name: 'carRental',
+        options: [
+          {
+            cost: 200
+          }
+        ],
+        type: 'optional',
+        selected: false
+      },
+      {
+        name: 'windScreenDamage',
+        options: [
+          {
+            text: 'Up to AED 3,000'
+          }
+        ],
+        type: 'included'
+      },
+      {
+        name: 'noExcessForWindscreenDamage',
+        type: 'included'
+      },
+      {
+        name: 'roadsideAssistance',
+        type: 'included'
+      },
+      {
+        name: 'fireAndTheftCovered',
+        type: 'included'
+      },
+      {
+        name: 'protectedNoClaimsDiscount',
+        type: 'excluded'
+      },
+      {
+        name: 'offroadCovered',
+        type: 'excluded'
+      },
+      {
+        name: 'freeCarRegistrationService',
+        type: 'included'
+      }
+    ],
+    own_damage: 5222
+  },
+  {
+    tpl: 1100,
+    insurance_type: 'comprehensive',
+    premium: 3506,
+    provider: {
+      enae: {
+        url_slug: 'watania',
+        terms_conditions_url: 'https:\/\/static4.bnkn.us\/insurance-terms\/WataniaTerms.pdf',
+        image_url: 'https:\/\/static4.bnkn.us\/ci\/providers\/watania.png',
+        name: 'Watania',
+        description: 'National Takaful Company (Watania) is a young and dynamic organization that came into being in 2011. Watania\u2019s General Takaful department is responsible for all classes of insurance other than Motor and Medical. Resourced with highly experienced staff, this department is dedicated to serve mainly the commercial insurance needs of the market. The department has developed a wide a range of products to cater to the requirement of business of all sizes and types in all the major sectors of the market. All the products are Shariah compliant.',
+        time_to_policy: 1,
+        product_name: 'Watania Garage'
       }
     },
-    {
-      "id": 3,
-      "fristname": "O'ReillyIII",
-      "lastname": "WillJr.",
-      "address": {
-        "streetaddress": "8714 Adams WallTerrace",
-        "apartmentnumber": "0003",
-        "city": "Hellerhaven",
-        "state": "Wyoming",
-        "zip": "54407"
+    excess: 1000,
+    currency: 'AED',
+    id: 'wataniagarage',
+    price_breakdown: {
+      modifiers: [
+        {
+          terms: {
+            starts_at: '2017-01-01T00:00:00.000+0000',
+            product: 'ALL',
+            code: '',
+            name: 'Ramadan extended',
+            ends_at: '2017-12-12T00:00:00.000+0000',
+            type: 'discountPercentage',
+            value: '0.06'
+          },
+          category: 'voucher'
+        }
+      ],
+      base: 3730
+    },
+    covers: [
+      {
+        name: 'personalAccidentForDriver',
+        options: [
+          {
+            cost: 120
+          }
+        ],
+        type: 'optional',
+        selected: false
       },
-      "profileimage": "https://s3.amazonaws.com/uifaces/faces/twitter/gregkilian/128.jpg",
-      "ordertotal": {
-        "amountfield": "53.27",
-        "currency": "GIP"
+      {
+        name: 'dentRepair',
+        type: 'excluded'
+      },
+      {
+        name: 'replacementLocksCovered',
+        type: 'excluded'
+      },
+      {
+        name: 'thirdPartyPropertyDamage',
+        options: [
+          {
+            text: 'Up to AED 2M'
+          }
+        ],
+        type: 'included'
+      },
+      {
+        name: 'omanExtension',
+        options: [
+          {
+            cost: 1000
+          }
+        ],
+        type: 'optional',
+        selected: false
+      },
+      {
+        name: 'lossOrDamageToVehicleCovered',
+        type: 'included'
+      },
+      {
+        name: 'valetParkingTheftCover',
+        type: 'excluded'
+      },
+      {
+        name: 'thirdPartyBodilyInjuryCovered',
+        options: [
+          {
+            text: 'Unlimited'
+          }
+        ],
+        type: 'included'
+      },
+      {
+        name: 'agencyRepair',
+        type: 'excluded'
+      },
+      {
+        name: 'lossOfPersonalEffects',
+        type: 'excluded'
+      },
+      {
+        name: 'emergencyMedicalExpenses',
+        options: [
+          {
+            text: 'Up to AED 2,000'
+          }
+        ],
+        type: 'included'
+      },
+      {
+        name: 'personalAccidentForPassenger',
+        options: [
+          {
+            cost: 150
+          },
+          {
+            text: 'Family and Friends included'
+          }
+        ],
+        type: 'excluded',
+        selected: false
+      },
+      {
+        name: 'ambulanceFees',
+        type: 'included'
+      },
+      {
+        name: 'naturalCalamityCovered',
+        type: 'excluded'
+      },
+      {
+        name: 'autoGapInsurance',
+        type: 'excluded'
+      },
+      {
+        name: 'riotOrStrikesCovered',
+        type: 'excluded'
+      },
+      {
+        name: 'gccCovered',
+        type: 'excluded'
+      },
+      {
+        name: 'involuntaryEmploymentLoss',
+        type: 'excluded'
+      },
+      {
+        name: 'carRental',
+        options: [
+          {
+            cost: 200
+          }
+        ],
+        type: 'optional',
+        selected: false
+      },
+      {
+        name: 'windScreenDamage',
+        options: [
+          {
+            text: 'Up to AED 3,000'
+          }
+        ],
+        type: 'included'
+      },
+      {
+        name: 'noExcessForWindscreenDamage',
+        type: 'included'
+      },
+      {
+        name: 'roadsideAssistance',
+        type: 'included'
+      },
+      {
+        name: 'fireAndTheftCovered',
+        type: 'included'
+      },
+      {
+        name: 'protectedNoClaimsDiscount',
+        type: 'excluded'
+      },
+      {
+        name: 'offroadCovered',
+        type: 'excluded'
+      },
+      {
+        name: 'freeCarRegistrationService',
+        type: 'included'
+      }
+    ],
+    own_damage: 2630
+  },
+  {
+    insurance_type: 'comprehensive',
+    premium: 3566,
+    provider: {
+      enae: {
+        url_slug: 'union',
+        terms_conditions_url: 'https:\/\/static4.bnkn.us\/insurance-terms\/UnionTerms.pdf',
+        image_url: 'https:\/\/static4.bnkn.us\/ci\/providers\/union-logo_19072017.png',
+        name: 'Union',
+        description: 'Established in 1998 and listed on the Abu Dhabi Securities Exchange, Union Insurance Company provides a wide range of individual and commercial insurance products to clients in the UAE and Middle East region. This includes both standard and customised policies that help individuals, small, medium and large enterprises as well as government entities obtain reliable, cost-effective insurance cover.',
+        time_to_policy: 24,
+        product_name: 'Union Silver'
       }
     },
-    {
-      "id": 4,
-      "fristname": "WehnerDVM",
-      "lastname": "CrooksMD",
-      "address": {
-        "streetaddress": "20033 Garrison CirclesStream",
-        "apartmentnumber": "0004",
-        "city": "Hammesmouth",
-        "state": "Kentucky",
-        "zip": "35091-5380"
+    excess: 1000,
+    currency: 'AED',
+    id: 'unionsilver',
+    price_breakdown: {
+      modifiers: [
+        {
+          terms: {
+            starts_at: '2017-01-01T00:00:00.000+0000',
+            product: 'ALL',
+            code: '',
+            name: 'Ramadan extended',
+            ends_at: '2017-12-12T00:00:00.000+0000',
+            type: 'discountPercentage',
+            value: '0.06'
+          },
+          category: 'voucher'
+        }
+      ],
+      base: 3793
+    },
+    covers: [
+      {
+        name: 'personalAccidentForDriver',
+        options: [
+          {
+            cost: 120
+          }
+        ],
+        type: 'optional',
+        selected: false
       },
-      "profileimage": "https://s3.amazonaws.com/uifaces/faces/twitter/al_li/128.jpg",
-      "ordertotal": {
-        "amountfield": "239.75",
-        "currency": "BSD"
+      {
+        name: 'dentRepair',
+        type: 'excluded'
+      },
+      {
+        name: 'replacementLocksCovered',
+        type: 'excluded'
+      },
+      {
+        name: 'agencyRepair',
+        options: [
+          {
+            cost: 506
+          }
+        ],
+        type: 'optional',
+        selected: false
+      },
+      {
+        name: 'thirdPartyPropertyDamage',
+        options: [
+          {
+            text: 'Up to AED 2M'
+          }
+        ],
+        type: 'included'
+      },
+      {
+        name: 'lossOrDamageToVehicleCovered',
+        type: 'included'
+      },
+      {
+        name: 'valetParkingTheftCover',
+        type: 'excluded'
+      },
+      {
+        name: 'thirdPartyBodilyInjuryCovered',
+        options: [
+          {
+            text: 'Unlimited'
+          }
+        ],
+        type: 'included'
+      },
+      {
+        name: 'lossOfPersonalEffects',
+        type: 'excluded'
+      },
+      {
+        name: 'omanExtension',
+        type: 'excluded'
+      },
+      {
+        name: 'involuntaryEmploymentLoss',
+        options: [
+          {
+            text: 'Up to AED 5,000'
+          }
+        ],
+        type: 'included'
+      },
+      {
+        name: 'ambulanceFees',
+        type: 'included'
+      },
+      {
+        name: 'naturalCalamityCovered',
+        type: 'included'
+      },
+      {
+        name: 'autoGapInsurance',
+        type: 'included'
+      },
+      {
+        name: 'riotOrStrikesCovered',
+        type: 'included'
+      },
+      {
+        name: 'gccCovered',
+        type: 'included'
+      },
+      {
+        name: 'carRental',
+        options: [
+          {
+            cost: 175
+          }
+        ],
+        type: 'optional',
+        selected: false
+      },
+      {
+        name: 'windScreenDamage',
+        type: 'excluded'
+      },
+      {
+        name: 'personalAccidentForPassenger',
+        options: [
+          {
+            text: 'Family Only'
+          }
+        ],
+        type: 'included'
+      },
+      {
+        name: 'noExcessForWindscreenDamage',
+        type: 'excluded'
+      },
+      {
+        name: 'roadsideAssistance',
+        type: 'included'
+      },
+      {
+        name: 'fireAndTheftCovered',
+        type: 'included'
+      },
+      {
+        name: 'protectedNoClaimsDiscount',
+        type: 'included'
+      },
+      {
+        name: 'offroadCovered',
+        type: 'excluded'
+      },
+      {
+        name: 'emergencyMedicalExpenses',
+        type: 'excluded'
+      },
+      {
+        name: 'freeCarRegistrationService',
+        type: 'excluded'
+      }
+    ]
+  },
+  {
+    insurance_type: 'comprehensive',
+    premium: 3744,
+    provider: {
+      enae: {
+        url_slug: 'union',
+        terms_conditions_url: 'https:\/\/static4.bnkn.us\/insurance-terms\/UnionTerms.pdf',
+        image_url: 'https:\/\/static4.bnkn.us\/ci\/providers\/union-logo_19072017.png',
+        name: 'Union',
+        description: 'Established in 1998 and listed on the Abu Dhabi Securities Exchange, Union Insurance Company provides a wide range of individual and commercial insurance products to clients in the UAE and Middle East region. This includes both standard and customised policies that help individuals, small, medium and large enterprises as well as government entities obtain reliable, cost-effective insurance cover.',
+        time_to_policy: 24,
+        product_name: 'Union Gold'
       }
     },
-    {
-      "id": 5,
-      "fristname": "LarkinII",
-      "lastname": "DickensPhD",
-      "address": {
-        "streetaddress": "714 Ferry DaleInlet",
-        "apartmentnumber": "0005",
-        "city": "South Orland",
-        "state": "Rhode Island",
-        "zip": "57275-3745"
-      },
-      "profileimage": "https://s3.amazonaws.com/uifaces/faces/twitter/bu7921/128.jpg",
-      "ordertotal": {
-        "amountfield": "34.36",
-        "currency": "GIP"
-      }
+    excess: 1000,
+    currency: 'AED',
+    id: 'uniongold',
+    price_breakdown: {
+      modifiers: [
+        {
+          terms: {
+            starts_at: '2017-01-01T00:00:00.000+0000',
+            product: 'ALL',
+            code: '',
+            name: 'Ramadan extended',
+            ends_at: '2017-12-12T00:00:00.000+0000',
+            type: 'discountPercentage',
+            value: '0.06'
+          },
+          category: 'voucher'
+        }
+      ],
+      base: 3983
     },
-    {
-      "id": 6,
-      "fristname": "TerryV",
-      "lastname": "SteuberV",
-      "address": {
-        "streetaddress": "51014 Norene CirclesDrive",
-        "apartmentnumber": "0006",
-        "city": "New Josue",
-        "state": "New York",
-        "zip": "73984-9778"
+    covers: [
+      {
+        name: 'personalAccidentForDriver',
+        options: [
+          {
+            cost: 120
+          }
+        ],
+        type: 'optional',
+        selected: false
       },
-      "profileimage": "https://s3.amazonaws.com/uifaces/faces/twitter/joshhemsley/128.jpg",
-      "ordertotal": {
-        "amountfield": "798.54",
-        "currency": "BSD"
-      }
-    },
-    {
-      "id": 7,
-      "fristname": "DaughertyIII",
-      "lastname": "MonahanSr.",
-      "address": {
-        "streetaddress": "9016 Kovacek LakeParks",
-        "apartmentnumber": "0007",
-        "city": "East Kaylie",
-        "state": "Texas",
-        "zip": "87235-6499"
+      {
+        name: 'gccCovered',
+        options: [
+          {
+            text: 'Oman and Qatar Only'
+          }
+        ],
+        type: 'included'
       },
-      "profileimage": "https://s3.amazonaws.com/uifaces/faces/twitter/bennyjien/128.jpg",
-      "ordertotal": {
-        "amountfield": "82.98",
-        "currency": "GIP"
-      }
-    },
-    {
-      "id": 8,
-      "fristname": "WalshSr.",
-      "lastname": "NicolasIII",
-      "address": {
-        "streetaddress": "6808 Shanahan AlleyIslands",
-        "apartmentnumber": "0008",
-        "city": "Parisianmouth",
-        "state": "Rhode Island",
-        "zip": "72883"
+      {
+        name: 'dentRepair',
+        type: 'included'
       },
-      "profileimage": "https://s3.amazonaws.com/uifaces/faces/twitter/stefanotirloni/128.jpg",
-      "ordertotal": {
-        "amountfield": "78.16",
-        "currency": "BSD"
-      }
-    },
-    {
-      "id": 9,
-      "fristname": "DurganIII",
-      "lastname": "FlatleyJr.",
-      "address": {
-        "streetaddress": "435 Blaze DamCoves",
-        "apartmentnumber": "0009",
-        "city": "North Pamela",
-        "state": "New York",
-        "zip": "53265-1367"
+      {
+        name: 'replacementLocksCovered',
+        options: [
+          {
+            text: 'Up to AED 1,000'
+          }
+        ],
+        type: 'included'
       },
-      "profileimage": "https://s3.amazonaws.com/uifaces/faces/twitter/psdesignuk/128.jpg",
-      "ordertotal": {
-        "amountfield": "764.85",
-        "currency": "BSD"
-      }
-    },
-    {
-      "id": 10,
-      "fristname": "OlsonIV",
-      "lastname": "LindgrenI",
-      "address": {
-        "streetaddress": "08880 Funk TunnelWay",
-        "apartmentnumber": "00010",
-        "city": "West Noemystad",
-        "state": "Alabama",
-        "zip": "03280-0876"
+      {
+        name: 'agencyRepair',
+        options: [
+          {
+            cost: 443
+          }
+        ],
+        type: 'optional',
+        selected: false
       },
-      "profileimage": "https://s3.amazonaws.com/uifaces/faces/twitter/robbschiller/128.jpg",
-      "ordertotal": {
-        "amountfield": "332.37",
-        "currency": "BSD"
+      {
+        name: 'thirdPartyPropertyDamage',
+        options: [
+          {
+            text: 'Up to AED 5M'
+          }
+        ],
+        type: 'included'
+      },
+      {
+        name: 'lossOrDamageToVehicleCovered',
+        type: 'included'
+      },
+      {
+        name: 'valetParkingTheftCover',
+        type: 'included'
+      },
+      {
+        name: 'thirdPartyBodilyInjuryCovered',
+        options: [
+          {
+            text: 'Unlimited'
+          }
+        ],
+        type: 'included'
+      },
+      {
+        name: 'lossOfPersonalEffects',
+        options: [
+          {
+            text: 'Up to AED 5,000'
+          }
+        ],
+        type: 'included'
+      },
+      {
+        name: 'emergencyMedicalExpenses',
+        options: [
+          {
+            text: 'Up to AED 6,000'
+          }
+        ],
+        type: 'included'
+      },
+      {
+        name: 'omanExtension',
+        type: 'included'
+      },
+      {
+        name: 'involuntaryEmploymentLoss',
+        options: [
+          {
+            text: 'Up to AED 5,000'
+          }
+        ],
+        type: 'included'
+      },
+      {
+        name: 'ambulanceFees',
+        type: 'included'
+      },
+      {
+        name: 'naturalCalamityCovered',
+        type: 'included'
+      },
+      {
+        name: 'autoGapInsurance',
+        type: 'included'
+      },
+      {
+        name: 'riotOrStrikesCovered',
+        type: 'included'
+      },
+      {
+        name: 'carRental',
+        options: [
+          {
+            cost: 175
+          }
+        ],
+        type: 'optional',
+        selected: false
+      },
+      {
+        name: 'windScreenDamage',
+        type: 'included'
+      },
+      {
+        name: 'personalAccidentForPassenger',
+        options: [
+          {
+            text: 'Family Only'
+          }
+        ],
+        type: 'included'
+      },
+      {
+        name: 'noExcessForWindscreenDamage',
+        type: 'included'
+      },
+      {
+        name: 'roadsideAssistance',
+        type: 'included'
+      },
+      {
+        name: 'fireAndTheftCovered',
+        type: 'included'
+      },
+      {
+        name: 'protectedNoClaimsDiscount',
+        type: 'included'
+      },
+      {
+        name: 'offroadCovered',
+        type: 'excluded'
+      },
+      {
+        name: 'freeCarRegistrationService',
+        type: 'included'
       }
-    }
-   ] 
-}
+    ]
+  }
+];
